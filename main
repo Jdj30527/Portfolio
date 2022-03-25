@@ -1,0 +1,13 @@
+<!--This is the main page for the portfolio-->
+<!Doctype html>
+<html>
+    <head>
+        <title>John Jefferies - Entry-level Developer</title>
+
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="main"></div>
+        <div id="footer"></div>
+    </body>
+</html>
