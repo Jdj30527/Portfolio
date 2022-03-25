@@ -19,6 +19,14 @@ body {
   left: 0;
 }
 
+#header #nav {
+    font-size: 1px;
+}
+
+#header a {
+
+}
+
 #main {
     width: 100%;
 }

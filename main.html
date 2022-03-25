@@ -16,8 +16,15 @@
           y2="100"
           style="stroke: black; stroke-width: .1"
         />
-        <path d="M25,17 75,17 L75,19 L25,19z" fill="gray" stroke="black" stroke-width=".1"/>
+        <path id="shelf" d="M25,17 75,17 L75,19 L25,19z" fill="gray" stroke="black" stroke-width=".1"/>
         <path d="M25,19 75,19 L73,20 L27,20z" fill="gray" stroke="gray" stroke-width=".1"/>
+        <text id="nav">
+            <textPath xlink:href="#shelf">
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </textPath>
+        </text>
         <line
           x1="80"
           y1="10"
